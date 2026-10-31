@@ -170,6 +170,10 @@ SnoozeBook is a local-first audiobook player tailored for bedtime listening, scr
 - It unlocks unlimited Voice Boost, Night Reading Mode, Full-Screen Gestures, and iCloud Progress Sync via NSUbiquitousKeyValueStore.
 - A functional "Restore Purchases" button and clear EULA/Privacy Policy links are prominently included on the paywall.
 
+5. Review Demo Video (Background Audio, Motion Sensors & Gestures):
+- We have prepared a complete 60-second video demonstrating continuous playback, background audio lock-screen controls, full-screen gestures, and in-app purchase functionality:
+  👉 Demo Video: https://raw.githubusercontent.com/kinson5/SnoozeBook/main/review_video/SnoozeBook_Review_Demo.mp4
+
 All ambient music tracks included in the app are licensed under CC0 / CC-BY 4.0 Public Domain by Kevin MacLeod (incompetech.com), with complete attribution listed in the in-app "Licenses & Acknowledgments" page.
 
 Thank you for your time and review!
