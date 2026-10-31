@@ -150,9 +150,9 @@ SnoozeBook is a local-first audiobook player tailored for bedtime listening, scr
 - The app supports importing audio via the standard iOS Document Picker ("文件" App), iTunes / Finder File Sharing, and AirDrop.
 - We have prepared 3 public-domain sample audiobook clips (2 English, 1 Chinese) with embedded cover art and ID3 metadata for your testing:
   👉 Sample Audiobooks: https://github.com/kinson5/SnoozeBook/tree/main/samples
-  • Track 1: The Little Prince - Chapter 1 (English, ~1.4MB)
-  • Track 2: Alice's Adventures in Wonderland - Chapter 1 (English, ~1.2MB)
-  • Track 3: Dao De Jing - Classical Reading (Chinese, ~980KB)
+  • Track 1: Alice's Adventures in Wonderland - Ch. 1 (English, Narrated by Kara Shallenberg, ~2.3MB)
+  • Track 2: The Adventures of Sherlock Holmes - A Scandal in Bohemia (English, Narrated by David Clarke, ~2.3MB)
+  • Track 3: 从百草园到三味书屋 - 鲁迅《朝花夕拾》经典选段 (Chinese, Narrated by Jing Li, ~2.3MB)
 - You can also import any common MP3, M4A, or M4B audio file from the Files app by tapping the "导入音频文件" button on the empty state screen or top-right library menu.
 
 2. Full-Screen Gesture Mode:
