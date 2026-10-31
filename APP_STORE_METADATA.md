@@ -118,6 +118,32 @@ SnoozeBook 是一款專為「睡前熄燈好眠」與「視線不便看螢幕（
 • 💎 一次性買斷零廣告：無訂閱陷阱、零廣告打擾、絕不收集個人隱私。
 ```
 
+### English Version (United States & Global Default)
+
+```text
+SnoozeBook is an audiobook player purpose-built for bedtime listening and eyes-free environments (falling asleep, running, cycling, driving, and doing chores).
+
+We reimagined how you interact with audio—in the dark and with your eyes closed, you no longer need to squint at tiny on-screen buttons. Everything responds to full-screen blind touch and natural motion.
+
+【SOLVING THREE CORE AUDIOBOOK PAIN POINTS】
+1. Fumbling with small buttons in a dark room blinds your eyes?
+➔ Full-Screen Blind Gestures: Control playback without looking. Tap anywhere to Play/Pause, swipe horizontally to skip backward or forward 15 seconds, and swipe vertically to smoothly adjust volume.
+2. Fallen asleep and lost your place until morning?
+➔ Smart Sleep Detection: Uses the built-in accelerometer to sense stillness and body movements. When you fall asleep, volume gently fades out over 60 seconds (a gentle shake extends playback). Once asleep, it automatically pauses and rewinds 2 minutes so you never lose your spot.
+3. Whispers are too quiet while sound effects are too loud?
+➔ Bedtime Voice Boost & Soundscapes: Enhances dialogue clarity at low volumes without harsh peaks. Mix your favorite audiobooks with soothing rain, ocean waves, crackling fireplace, and gentle piano tracks with dual independent volume sliders.
+
+【KEY HIGHLIGHTS】
+• 🌙 Bedtime 1-Tap Capsule: Instant access to Smart Sleep, 15/30/45 min timers, or End of Chapter pause.
+• 📱 Full-Screen Blind Gestures: Whole-screen touch surface with subtle haptic feedback for screen-free control.
+• 🕯️ Ultra-Dark Night Reading Mode: Red Night Vision (650nm) and Amber Glow (590nm) spectrum modes that protect your night vision and melatonin production.
+• 🔊 Speech Voice Boost: Crisp dialogue clarity with standard, +6dB, and +12dB amplification.
+• 🌧️ Ambient Soundscapes: Built-in rain, fireplace, ocean, and relaxing piano tracks for soothing background companionship.
+• ⚡ Local-First & Offline: Import your audiobooks (MP3, M4A, M4B) via AirDrop, Finder, or the Files app. Instant playback with zero cellular data.
+• ☁️ iCloud Progress Sync (Pro): Seamlessly sync your bookmarks and listening progress across iPhone, iPad, and Mac.
+• 💎 One-Time Buyout: No subscriptions, no ads, no trackers, and 100% offline privacy.
+```
+
 ---
 
 ## 5. 合规网址 (Required App Store URLs)
