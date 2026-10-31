@@ -15,6 +15,7 @@
 - 📜 **[使用条款与最终用户许可协议 (Terms of Use / EULA)](TERMS.md)** *(符合 Apple Guideline 3.1.1)*
 - 🛠️ **[技术支持与常见问题解答 (Support & FAQ)](SUPPORT.md)** *(App Store Connect Support URL)*
 - 📋 **[App Store Connect 提审全套元数据与审核指引 (App Store Metadata)](APP_STORE_METADATA.md)**
+- 🎧 **[审核与体验专用公版测试有声书 (Sample Audiobooks)](samples/)** *(中英文 3 段经典名篇 MP3)*
 
 ---
 

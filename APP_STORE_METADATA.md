@@ -146,9 +146,14 @@ Dear Apple Review Team,
 
 SnoozeBook is a local-first audiobook player tailored for bedtime listening, screen-free gestures, and eyes-free environments (such as driving, running, and falling asleep).
 
-1. Testing Audio Playback & Import:
+1. Testing Audio Playback & Sample Audio:
 - The app supports importing audio via the standard iOS Document Picker ("文件" App), iTunes / Finder File Sharing, and AirDrop.
-- You can import any common MP3, M4A, or M4B audio file from the Files app by tapping the "导入音频文件" button on the empty state screen or top-right library menu.
+- We have prepared 3 public-domain sample audiobook clips (2 English, 1 Chinese) with embedded cover art and ID3 metadata for your testing:
+  👉 Sample Audiobooks: https://github.com/kinson5/SnoozeBook/tree/main/samples
+  • Track 1: The Little Prince - Chapter 1 (English, ~1.4MB)
+  • Track 2: Alice's Adventures in Wonderland - Chapter 1 (English, ~1.2MB)
+  • Track 3: Dao De Jing - Classical Reading (Chinese, ~980KB)
+- You can also import any common MP3, M4A, or M4B audio file from the Files app by tapping the "导入音频文件" button on the empty state screen or top-right library menu.
 
 2. Full-Screen Gesture Mode:
 - On the main player, tap the purple "手势 (Gestures)" button.
