@@ -1,6 +1,9 @@
-# SnoozeBook · App Store Connect 完整上架提审资料包
+# SnoozeBook · App Store Connect 完整上架提审资料包（方案 B：纯本地音频播放工具合规版）
 
-本文档汇总了在 **Apple App Store Connect** 提交审核时所需填写的全部元数据、文本描述、分级信息、审核员测试指引与内购配置，支持直接复制粘贴使用。
+本文档已按照 **中国大陆区无出版物资质合规方案（方案 B）** 全面更新：
+- 将主类别调整为 **工具 (Utilities)**、次类别为 **音乐 (Music)**（严禁选择 `图书 Books`）；
+- 移除全部文学/图书样书，替换为中英文两段内嵌 4 个章节的 **《SnoozeBook 睡前盲操与声效体验引导》** 语音指南；
+- 文案与关键词突出 **「纯离线本地音频播放器 · 睡前盲操手势 · 助眠白噪音与人声增强工具」** 定位，不涉及任何在线书城或电子出版物分发。
 
 ---
 
@@ -8,17 +11,19 @@
 
 | 字段 (Field) | 填写内容 (Value) | 字符上限要求 |
 | :--- | :--- | :--- |
-| **App 名称 (Name)** | `SnoozeBook - 睡前听书与手势盲听` | ≤ 30 字符 |
-| **英文名称 (Name - English)** | `SnoozeBook - Bedtime Audiobooks` | ≤ 30 字符 |
-| **副标题 (Subtitle - 简体中文)** | `闭眼全屏盲控 · 智能入睡守护` | ≤ 30 字符 |
-| **副标题 (Subtitle - 繁體中文)** | `閉眼全螢幕盲控 · 智能入睡守護` | ≤ 30 字符 |
-| **副标题 (Subtitle - English)** | `Eyes-Free Bedtime Audiobooks` | ≤ 30 字符 |
-| **主类别 (Primary Category)** | **图书 (Books)** | - |
-| **次类别 (Secondary Category)** | **健康与健美 (Health & Fitness)** 或 **工具 (Utilities)** | - |
-| **内容分级 (Age Rating)** | **4+** (无任何暴力、成人、赌博或医疗限制内容，纯本地播放器) | - |
+| **App 名称 (Name - 简体中文)** | `SnoozeBook - 睡前盲操本地音频播放器` | ≤ 30 字符 |
+| **App 名称 (Name - 繁體中文)** | `SnoozeBook - 睡前盲控本機音訊播放器` | ≤ 30 字符 |
+| **英文名称 (Name - English)** | `SnoozeBook - Bedtime Audio` | ≤ 30 字符 |
+| **副标题 (Subtitle - 简体中文)** | `闭眼全屏手势 · 智能入睡定时与白噪音` | ≤ 30 字符 |
+| **副标题 (Subtitle - 繁體中文)** | `閉眼全螢幕手勢 · 智能入睡定時與白噪音` | ≤ 30 字符 |
+| **副标题 (Subtitle - English)** | `Eyes-Free Local Audio Player` | ≤ 30 字符 |
+| **主类别 (Primary Category)** | **工具 (Utilities)** *(切勿选“图书 Books”)* | - |
+| **次类别 (Secondary Category)** | **音乐 (Music)** 或 **健康与健美 (Health & Fitness)** | - |
+| **内容分级 (Age Rating)** | **4+** (纯本地音频播放工具，无任何内置出版物或联网内容) | - |
 | **版权信息 (Copyright)** | `2026 Kinson. All rights reserved.` | - |
 | **SKU** | `SnoozeBook-iOS` | 唯一标识符 |
 | **Bundle ID** | `com.kinson.AudiobookPlayer` | 与 Xcode 工程一致 |
+| **构建版本 (Build)** | `1.0 (3)` | 已升级至 Build 3 |
 
 ---
 
@@ -28,38 +33,36 @@
 
 ### 简体中文 (Simplified Chinese)
 ```text
-睡前听书,有声书,听书,助眠,白噪音,睡眠定时,手势,盲操,本地播放器,音频书,夜读,伴奏
+本地播放器,音频播放器,睡前,助眠,白噪音,睡眠定时,手势,盲操,离线播放,人声增强,播客,M4B,MP3,章节跳转,极暗模式
 ```
 
 ### 繁體中文 (Traditional Chinese)
 ```text
-睡前聽書,有聲書,聽書,助眠,白噪音,睡眠定時,手勢,盲控,本機播放器,音訊書,夜讀,伴奏
+本機播放器,音訊播放器,睡前,助眠,白噪音,睡眠定時,手勢,盲控,離線播放,人聲增強,播客,M4B,MP3,章節跳轉,極暗模式
 ```
 
 ### English (United States & Global)
 ```text
-audiobook,bedtime,sleep timer,eyes free,gestures,night reading,voice boost,offline,books
+audio player,bedtime,sleep timer,eyes free,gestures,night mode,voice boost,offline,mp3,m4b,chapters
 ```
 
 ---
 
 ## 3. 宣传文本 (Promotional Text)
 
-> **特点**：显示在 App Store 描述上方，上限 170 字符，可随时修改且无需重新提交版本审核。
-
 ### 简体中文
 ```text
-专为关灯闭眼与不便看屏场景打造。全屏大触控极简手势、智能体动入睡检测、录音人声增强与自然伴读音景，让每晚听书成为舒适入眠的享受。
+专为关灯闭眼与不便看屏场景打造的纯本地离线音频播放器。支持全屏大触控盲操手势、MP3/M4B章节目录跳转、智能体动入睡检测、录音人声增强与自然助眠白噪音混音。
 ```
 
 ### 繁體中文
 ```text
-專為關燈閉眼與不便看螢幕場景打造。全螢幕大觸控極簡手勢、智能體動入睡偵測、人聲音訊增強與自然伴讀音景，讓每晚聽書成為舒適入眠的享受。
+專為關燈閉眼與不便看螢幕場景打造的純本機離線音訊播放器。支援全螢幕大觸控盲控手勢、MP3/M4B章節跳轉、智能體動入睡偵測、人聲增強與自然助眠白噪音混音。
 ```
 
 ### English
 ```text
-Designed for bedtime, running, and eyes-free chores. Enjoy full-screen blind gestures, smart sleep auto-pause, voice booster, and calming ambient soundscapes.
+A local offline audio player built for bedtime and eyes-free moments. Enjoy full-screen blind gestures, MP3/M4B chapter navigation, smart sleep auto-pause, voice boost, and calming soundscapes.
 ```
 
 ---
@@ -69,157 +72,120 @@ Designed for bedtime, running, and eyes-free chores. Enjoy full-screen blind ges
 ### 简体中文版 (Simplified Chinese)
 
 ```text
-SnoozeBook 是一款专为「睡前熄灯好眠」与「视线不便看屏（跑步、驾车、做家务）」深度定制的有声书播放器。
+SnoozeBook 是一款专为「睡前熄灯好眠」与「视线不便看屏（跑步、驾车、做家务）」深度定制的纯本地离线音频播放工具。
 
-我们重新思考了人与声音的交互方式——在黑暗与闭眼中，您不再需要费力辨认屏幕上的微小按键，一切操作皆在全屏触控与呼吸起伏之间自然发生。
+本应用为纯粹的本地音频播放工具，不提供、不分发任何在线内容。您可以将自己设备中的 MP3、M4A、M4B、AAC、WAV、FLAC 音频文件导入本地沙盒，在黑暗与闭眼中无需辨认微小按钮，通过全屏触控手势轻松掌控播放。
 
-【告别三大听书痛点】
-1. 睡前关灯摸索屏幕易被强光刺眼，甚至手机砸脸？
-➔ SnoozeBook 带来「全屏手势模式」：无需注视屏幕，轻触任意位置即播放/暂停，左右扫动快退快进，上下滑动调节系统音量，躺平盲控舒适自如。
-2. 听着听着睡着了，第二天醒来不知道播到哪里？
-➔ 独创「智能入睡守护 (Smart Sleep)」：利用内置加速度传感器感知身体翻动与静止。当判定您安然入睡后，音量先柔和淡出（轻摇手机即可续播），确认入睡后自动贴心回退 2 分钟并记录断点，第二天醒来进度丝毫不乱。
-3. 有声书录音嘈杂、声音忽大忽小，夜间听得耳神经紧绷？
-➔ 专研「睡前人声增强 (Voice Boost)」与「混音伴读音景」：突显对白清晰度，滤除底噪轰鸣；更可叠加雨声、壁炉、海浪白噪音与舒缓钢琴曲，构筑温馨静谧的安睡氛围。
+【解决三大夜间音频播放痛点】
+1. 睡前关灯摸索屏幕易被强光刺眼？
+➔ 「全屏盲操手势模式」：无需注视屏幕，轻触任意位置即播放/暂停，左右滑动快退快进 15 秒，上下滑动平滑调节系统音量，躺平盲控舒适自如。
+2. 听着音频睡着了，第二天醒来找不到上次听到哪里？
+➔ 「智能入睡守护 (Smart Sleep)」：利用内置加速度传感器感知身体静止状态。判定入睡后，音量先柔和淡出（轻摇手机即可续播），确认入睡后自动回退 2 分钟并记录播放断点。
+3. 本地录音底噪大、声音忽大忽小？
+➔ 「睡前人声增强 (Voice Boost)」与「双轨白噪音混音」：提供 0dB / +6dB / +12dB 多级人声动态增强；更可叠加细雨、壁炉、海浪白噪音与舒缓钢琴伴奏，独立调节音量。
 
 【核心功能亮点】
-• 🌙 睡前 1-Tap 快捷胶囊：主屏 1 秒直达智能睡眠检测、15/30/45 分钟定时或播完本章停播。
-• 📱 全屏盲操手势：触碰任意位置即时响应，伴随细腻触感震动反馈，闭眼入睡、跑步健身、车上骑行两不误。
-• 🕯️ 极暗视觉夜读模式：深红夜视 (650nm)、暖琥珀 (590nm)、暗月光三种护眼光谱，对视网膜视紫红质零漂白，完全不抑制褪黑素分泌。
-• 🔊 人声强化与多级增益：原声标准、+6dB 增强、+12dB 极强放大，微弱老磁带录音也能清晰入耳。
-• 🌧️ 自然白噪音与 CC0 舒缓伴奏：淅沥细雨、温暖壁炉、静谧海浪、轻柔慢板钢琴，支持与有声书双轨独立音量混音。
-• ⚡ 本地优先架构：支持通过隔空投送 (AirDrop)、电脑访达/iTunes 文件共享、系统「文件」App 导入任意 MP3、M4A、M4B，离线秒开，零网络流量依赖。
-• ☁️ iCloud 进度轻量接力 (Pro)：在 iPhone / iPad / Mac 之间无缝实时同步断点与听完标记。
+• 📑 MP3 / M4B 章节目录跳转：自动解析音频内嵌章节轨与 ID3 章节标签，支持目录列表预览、当前章节高亮与一键切章。
+• 🌙 睡前快捷定时胶囊：主界面与极暗模式均可一键开启智能入睡检测、15/30/45 分钟定时或播完当前音频自动停止。
+• 🔢 智能连播与最近播放排序：音频库按最近播放时间自动置顶排序；播放结束后可按文件名编号顺序自动连播下一首（定时到点除外）。
+• 🕯️ 极暗护眼光谱模式：深红夜视 (650nm)、暖琥珀 (590nm)、暗月光三种护眼配色，呵护暗视觉。
+• ⚡ 100% 本地优先架构：支持通过系统「文件」App、隔空投送 (AirDrop)、电脑访达/iTunes 文件共享导入本地音频，离线秒开，零网络流量依赖。
+• ☁️ iCloud 进度接力 (Pro)：在 iPhone / iPad / Mac 之间无缝同步播放断点与设置。
 • 💎 一次性买断无广告：无订阅陷阱、零第三方广告、绝不收集个人隐私。
 ```
 
 ### 繁體中文版 (Traditional Chinese)
 
 ```text
-SnoozeBook 是一款專為「睡前熄燈好眠」與「視線不便看螢幕（跑步、駕車、做家務）」深度打造的有聲書播放器。
+SnoozeBook 是一款專為「睡前熄燈好眠」與「視線不便看螢幕（跑步、駕車、做家務）」深度打造的純本機離線音訊播放工具。
 
-我們重新構想了人與音訊的互動方式——在黑暗與閉眼中，您不再需要費力摸索微小按鍵，一切操作皆在全螢幕觸控與呼吸起伏間自然完成。
+本應用為純粹的本機音訊播放工具，不提供、不散佈任何線上內容。您可以將自己裝置中的 MP3、M4A、M4B、AAC、WAV、FLAC 音訊檔案匯入本機沙盒，在黑暗與閉眼中透過全螢幕手勢輕鬆掌控播放。
 
-【告別三大聽書痛點】
-1. 睡前關燈摸索螢幕容易被強光刺眼，甚至手機砸臉？
-➔ SnoozeBook 帶來「全螢幕手勢模式」：無需注視螢幕，輕觸任意位置即播放/暫停，左右掃動快退快進，上下滑動微調音量，躺平盲控自在舒坦。
-2. 聽著聽著睡著了，隔天醒來找不到進度位置？
-➔ 獨家「智能入睡守護」：透過機身加速度感測器感知身體翻動與靜止。判定您安然入睡後，音量柔和淡出（輕搖手機即可續播），確認入睡後自動貼心回退 2 分鐘並記錄斷點，隔天醒來進度絲毫不亂。
-3. 錄音品質參差、聲音忽大忽小，夜間聽得神經緊繃？
-➔ 專研「睡前人聲增強」與「混音伴讀音景」：突顯對白清晰度，撫平底噪雜音；更可疊加細雨、壁爐、海浪白噪音與慢板鋼琴曲，營造安寧靜謐的睡眠氛圍。
+【解決三大夜間音訊播放痛點】
+1. 睡前關燈摸索螢幕容易被強光刺眼？
+➔ 「全螢幕盲控手勢模式」：無需注視螢幕，輕觸任意位置即播放/暫停，左右滑動快退快進 15 秒，上下滑動微調音量。
+2. 聽著音訊睡著了，隔天醒來找不到進度位置？
+➔ 「智能入睡守護」：透過機身加速度感測器感知靜止狀態。判定入睡後音量柔和淡出（輕搖手機即可續播），確認入睡後自動回退 2 分鐘並記錄斷點。
+3. 本機錄音品質參差、聲音忽大忽小？
+➔ 「睡前人聲增強」與「雙軌白噪音混音」：突顯人聲清晰度，並可疊加細雨、壁爐、海浪白噪音與舒緩鋼琴伴奏。
 
 【核心特色】
-• 🌙 睡前 1-Tap 快捷膠囊：主頁 1 秒直達智能入睡偵測、15/30/45 分鐘定時或播完本章停播。
-• 📱 全螢幕手勢盲控：觸碰任意位置即時響應，細膩觸感震動回饋，閉眼入睡、跑步健身、駕車騎行皆適用。
-• 🕯️ 極暗視覺夜讀模式：深紅夜視、暖琥珀、暗月光三種護眼光譜，不抑制褪黑素分泌。
-• 🔊 人聲強化與多級放大：原聲標準、+6dB 增強、+12dB 極強放大，微弱音訊也能清晰入耳。
-• 🌧️ 自然白噪音與舒緩樂曲：支援與有聲書雙軌獨立音量即時混音伴讀。
-• ⚡ 本機優先架構：支援 AirDrop、Finder / 檔案 App 匯入 MP3/M4A/M4B，離線秒開，零流量負擔。
-• ☁️ iCloud 進度接力 (Pro)：在 iPhone / iPad / Mac 之間跨裝置無縫同步播放斷點。
+• 📑 MP3 / M4B 章節跳轉：自動解析音訊內嵌章節，支援目錄預覽與一鍵跳轉。
+• 🌙 睡前快捷定時膠囊：主頁與極暗模式皆可 1 秒開啟智能入睡偵測或 15/30/45 分鐘定時。
+• 🔢 智慧連播與最近播放排序：音訊庫依最近播放時間排序，並支援依檔名編號順序自動連播。
+• 🕯️ 極暗視覺護眼模式：深紅夜視、暖琥珀、暗月光三種低光光譜。
+• ⚡ 本機優先架構：支援檔案 App、AirDrop、Finder 匯入 MP3/M4A/M4B，離線秒開。
+• ☁️ iCloud 進度接力 (Pro)：跨裝置同步播放斷點。
 • 💎 一次性買斷零廣告：無訂閱陷阱、零廣告打擾、絕不收集個人隱私。
 ```
 
 ### English Version (United States & Global Default)
 
 ```text
-SnoozeBook is an audiobook player purpose-built for bedtime listening and eyes-free environments (falling asleep, running, cycling, driving, and doing chores).
+SnoozeBook is a local-first, offline audio player utility purpose-built for bedtime relaxation and eyes-free environments (falling asleep, running, cycling, driving, and doing chores).
 
-We reimagined how you interact with audio—in the dark and with your eyes closed, you no longer need to squint at tiny on-screen buttons. Everything responds to full-screen blind touch and natural motion.
+SnoozeBook is strictly a local audio playback tool and does not provide or distribute any online content. Import your own MP3, M4A, M4B, AAC, WAV, or FLAC audio files from your device and control everything with full-screen blind gestures.
 
-【SOLVING THREE CORE AUDIOBOOK PAIN POINTS】
-1. Fumbling with small buttons in a dark room blinds your eyes?
+【SOLVING THREE CORE NIGHTTIME AUDIO PAIN POINTS】
+1. Fumbling with tiny buttons in a dark room blinds your eyes?
 ➔ Full-Screen Blind Gestures: Control playback without looking. Tap anywhere to Play/Pause, swipe horizontally to skip backward or forward 15 seconds, and swipe vertically to smoothly adjust volume.
-2. Fallen asleep and lost your place until morning?
-➔ Smart Sleep Detection: Uses the built-in accelerometer to sense stillness and body movements. When you fall asleep, volume gently fades out over 60 seconds (a gentle shake extends playback). Once asleep, it automatically pauses and rewinds 2 minutes so you never lose your spot.
-3. Whispers are too quiet while sound effects are too loud?
-➔ Bedtime Voice Boost & Soundscapes: Enhances dialogue clarity at low volumes without harsh peaks. Mix your favorite audiobooks with soothing rain, ocean waves, crackling fireplace, and gentle piano tracks with dual independent volume sliders.
+2. Fallen asleep and lost your playback position until morning?
+➔ Smart Sleep Detection: Uses the built-in accelerometer to sense stillness. When you fall asleep, volume gently fades out over 60 seconds (a gentle shake extends playback). Once asleep, it automatically pauses and rewinds 2 minutes.
+3. Quiet recordings or harsh volume spikes at night?
+➔ Bedtime Voice Boost & Soundscapes: Enhances vocal clarity at whisper volumes (+0dB, +6dB, +12dB) and mixes built-in rain, fireplace, ocean waves, and relaxing piano tracks with independent volume sliders.
 
 【KEY HIGHLIGHTS】
-• 🌙 Bedtime 1-Tap Capsule: Instant access to Smart Sleep, 15/30/45 min timers, or End of Chapter pause.
-• 📱 Full-Screen Blind Gestures: Whole-screen touch surface with subtle haptic feedback for screen-free control.
-• 🕯️ Ultra-Dark Night Reading Mode: Red Night Vision (650nm) and Amber Glow (590nm) spectrum modes that protect your night vision and melatonin production.
-• 🔊 Speech Voice Boost: Crisp dialogue clarity with standard, +6dB, and +12dB amplification.
-• 🌧️ Ambient Soundscapes: Built-in rain, fireplace, ocean, and relaxing piano tracks for soothing background companionship.
-• ⚡ Local-First & Offline: Import your audiobooks (MP3, M4A, M4B) via AirDrop, Finder, or the Files app. Instant playback with zero cellular data.
-• ☁️ iCloud Progress Sync (Pro): Seamlessly sync your bookmarks and listening progress across iPhone, iPad, and Mac.
+• 📑 MP3 & M4B Chapter Navigation: Automatically parses embedded chapter tracks and ID3 CHAP tags for instant chapter jumping.
+• 🌙 Bedtime 1-Tap Sleep Capsule: Quick access to Smart Sleep, 15/30/45 min timers, or End of Track pause on both main and Night screens.
+• 🔢 Sequential Auto-Play & Recent Sort: Automatically sorts your library by recently played and auto-advances to the next numbered file.
+• 🕯️ Ultra-Dark Night Spectrums: Red Night Vision (650nm) and Amber Glow (590nm) modes protect your eyes in the dark.
+• ⚡ 100% Local & Offline: Import audio via the iOS Files app, AirDrop, or Finder File Sharing.
+• ☁️ iCloud Progress Sync (Pro): Sync playback positions across iPhone, iPad, and Mac.
 • 💎 One-Time Buyout: No subscriptions, no ads, no trackers, and 100% offline privacy.
 ```
 
 ---
 
-## 5. 合规网址 (Required App Store URLs)
+## 5. 解决中心直接回复内容 + App 审核备注 (App Review Notes)
 
-在 App Store Connect 中填写以下官方公开链接：
-
-| 网址类型 | App Store Connect 填写字段 | 官方公开 URL |
-| :--- | :--- | :--- |
-| **隐私政策网址** | `Privacy Policy URL` (**必填**) | `https://github.com/kinson5/SnoozeBook/blob/main/PRIVACY_POLICY.md` |
-| **技术支持网址** | `Support URL` (**必填**) | `https://github.com/kinson5/SnoozeBook/blob/main/SUPPORT.md` |
-| **营销网址** | `Marketing URL` (*选填*) | `https://github.com/kinson5/SnoozeBook` |
-
----
-
-## 6. App 审核信息 (App Review Information)
-
-在 App Store Connect 的「**App 审核信息 (App Review Information)**」栏目填写以下内容供苹果审核团队查阅：
-
-### 登录信息 (Sign-In Information)
-- **需要登录？**：**否 (Unchecked)**
-- **说明**：本应用属于纯本地优先有声书工具，无需注册或登录账号，打开即可立即完整体验。
-
-### 审核备注 (Notes for Apple Reviewer)
+### 审核备注与回复 (Notes for Apple Reviewer / Resolution Center Reply)
 ```text
 Dear Apple Review Team,
 
-SnoozeBook is a local-first audiobook player tailored for bedtime listening, screen-free gestures, and eyes-free environments (such as driving, running, and falling asleep).
+SnoozeBook is a local-first offline audio file player utility tailored for bedtime listening, screen-free blind gestures, and eyes-free environments (such as falling asleep, running, driving, and doing chores).
 
-1. Testing Audio Playback & Sample Audio:
-- **Instant Out-of-the-Box Testing**: The app comes pre-bundled with 3 authentic human-narrated public domain classic audiobook clips (2 English, 1 Chinese) with embedded artwork and ID3 metadata. When opening SnoozeBook for the first time, these sample books are automatically ready in the library for immediate one-tap playback!
-  • Track 1: Alice's Adventures in Wonderland - Ch. 1 (English, Narrated by Kara Shallenberg, ~2.3MB)
-  • Track 2: The Adventures of Sherlock Holmes - A Scandal in Bohemia (English, Narrated by David Clarke, ~2.3MB)
-  • Track 3: 从百草园到三味书屋 - 鲁迅《朝花夕拾》经典选段 (Chinese, Narrated by Jing Li, ~2.3MB)
-- You can also import any common MP3, M4A, or M4B audio file via the standard iOS Document Picker ("文件" App), iTunes / Finder File Sharing, or AirDrop. The sample audio files can also be browsed or downloaded from:
-  👉 Sample Audiobooks: https://github.com/kinson5/SnoozeBook/tree/main/samples
+Note Regarding Guideline 2.1 (No Book or Magazine Content):
+- SnoozeBook is strictly a pure local offline audio player utility (for playing user-imported MP3, M4A, and M4B audio files). It does NOT provide, host, fetch, sell, or distribute any books, magazines, newspapers, or online publications, and has zero network content servers.
+- We have removed the previous public-domain literary sample clips and updated our App Store category to "Utilities".
+
+1. Testing Audio Playback, Chapters & Sample Audio Guides:
+- Instant Out-of-the-Box Testing: The app comes pre-bundled with 2 self-produced voice-over feature tutorial audio guides (1 Chinese, 1 English) with embedded ID3 chapter tags (4 chapters each) and cover artwork. When opening SnoozeBook for the first time, these 2 audio guides are automatically ready in the library for immediate one-tap playback:
+  • Track 1: SnoozeBook 睡前盲操与声效体验引导 (Chinese Audio Guide, 4 embedded chapters, ~2.6MB)
+  • Track 2: SnoozeBook Bedtime Gestures & Audio Guide (English Audio Guide, 4 embedded chapters, ~2.2MB)
+- Chapter Navigation (TOC): Tap the "目录 / TOC" button or the chapter pill on the main player card to view the 4 embedded chapters and jump directly to any section.
+- You can also import any local MP3, M4A, or M4B audio file via the standard iOS Document Picker ("Files" App), Finder / iTunes File Sharing, or AirDrop:
+  👉 Sample Audio Guides: https://github.com/kinson5/SnoozeBook/tree/main/samples
 
 2. Full-Screen Gesture Mode:
-- On the main player, tap the purple "手势 (Gestures)" button.
+- On the main player, tap the purple "Gestures (手势)" button.
 - Tap anywhere on the black screen to Play/Pause.
 - Swipe left/right to rewind/fast-forward 15 seconds.
 - Swipe up/down to adjust hardware volume with instant HUD feedback.
 
-3. Smart Sleep Detection:
-- Tap "智能入睡" on the bedtime capsule bar or inside Settings.
-- The app uses real-time accelerometer motion to sense stillness and gentle movements.
-- When stillness duration is reached, the volume gently fades out over 60 seconds. A gentle shake of the device extends playback. Once asleep, playback pauses and automatically rewinds 2 minutes.
+3. Smart Sleep Detection & Night Mode:
+- Tap "Smart Sleep (智能入睡)" or any preset timer (15/30/45 min) on the bedtime capsule bar (available on both the main player and Night Mode).
+- Smart Sleep uses real-time accelerometer motion to sense stillness and gentle movements. When stillness duration is reached, the volume gently fades out over 60 seconds (a gentle shake extends playback). Once asleep, playback pauses and automatically rewinds 2 minutes.
 
-4. In-App Purchase:
-- We offer a one-time non-consumable buyout: "SnoozeBook Pro Lifetime" (Product ID: com.kinson.AudiobookPlayer.pro.lifetime).
-- It unlocks unlimited Voice Boost, Night Reading Mode, Full-Screen Gestures, and iCloud Progress Sync via NSUbiquitousKeyValueStore.
+4. In-App Purchase & Daily Free Trial:
+- Users enjoy a 5-minute daily free trial of Pro features (Voice Boost +6dB/+12dB, Ultra-Dark Night Mode, and Full-Screen Gestures).
+- We offer a one-time non-consumable buyout: "SnoozeBook Pro Lifetime" (Product ID: com.kinson.AudiobookPlayer.pro.lifetime), which unlocks unlimited access to Voice Boost, Night Mode, Full-Screen Gestures, and iCloud Progress Sync via NSUbiquitousKeyValueStore.
 - A functional "Restore Purchases" button and clear EULA/Privacy Policy links are prominently included on the paywall.
 
-5. Review Demo Video (Background Audio, Motion Sensors & Gestures):
-- We have prepared a complete 60-second video demonstrating continuous playback, background audio lock-screen controls, full-screen gestures, and in-app purchase functionality:
+5. Review Demo Video (Background Audio, Chapters, Motion Sensors & Gestures):
+- We have prepared a complete demo video demonstrating chapter navigation, continuous playback, background audio lock-screen controls, full-screen gestures, and in-app purchase functionality:
   👉 Demo Video: https://raw.githubusercontent.com/kinson5/SnoozeBook/main/review_video/SnoozeBook_Review_Demo.mp4
 
 All ambient music tracks included in the app are licensed under CC0 / CC-BY 4.0 Public Domain by Kevin MacLeod (incompetech.com), with complete attribution listed in the in-app "Licenses & Acknowledgments" page.
 
 Thank you for your time and review!
 ```
-
----
-
-## 7. App 内购买项目配置 (In-App Purchase Setup)
-
-在 App Store Connect ➜ **功能 (Features)** ➜ **App 内购买项目 (In-App Purchases)** 中添加：
-
-| 配置项 | 设定值 | 说明 |
-| :--- | :--- | :--- |
-| **类型 (Type)** | **非消耗型 (Non-Consumable)** | 一次性买断，终身可用 |
-| **参考名称 (Reference Name)** | `SnoozeBook Pro Lifetime` | 内部管理名称 |
-| **产品 ID (Product ID)** | `com.kinson.AudiobookPlayer.pro.lifetime` | **必须完全一致** |
-| **定价等级 (Price Tier)** | **Tier 2** | 国内: `¥18.00` / 海外: `$1.99` |
-| **显示名称 (zh-Hans)** | `SnoozeBook Pro 终身会员` | 购买弹窗展示 |
-| **描述 (zh-Hans)** | `解锁无限睡前人声增强、极暗夜读、全屏手势与多设备 iCloud 进度接力` | 审核展示 |
-| **显示名称 (en-US)** | `SnoozeBook Pro Lifetime` | 英文展示 |
-| **描述 (en-US)** | `Lifetime access to unlimited Voice Boost, Night Reading, Gestures, and iCloud sync.` | 英文展示 |
-| **审核备注** | `SnoozeBook Pro provides lifetime access with no recurring subscription fees.` | 审核员参考 |
-| **审核截屏** | 截取应用内 `ProPaywallSheet` 界面上传 (1290 x 2796 或 1242 x 2688) | 必须包含价格与权益 |
